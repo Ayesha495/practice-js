@@ -8,3 +8,8 @@ function upper(){
     // const fn = upper();  // Now fn is assigned the inner function
 fn(); // 1
 fn(); // 2
+
+/*
+in JS, when we return a function from another function, we are effectivey returning a combination of the function along with the function's scope. This would let
+the function definition have an associated memory which could hold onto live data between executions. That combination of the function and it's scope is called closure in JS.    
+*/
