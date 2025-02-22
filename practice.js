@@ -1,10 +1,8 @@
-let a = 10;
-
 function upper(){
-    let b = 20;
+    let counter = 0;
      function inner() {
-        let c=30;
-        console.log(a, b, c)
+        counter++;
+        console.log(counter)
      }
      inner();
 } 
