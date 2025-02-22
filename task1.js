@@ -1,13 +1,9 @@
 
-var course = 'MAD';
-function greet(name, age) {
-    let address = "Kahuta";
-    console.log(`${course}`);
-    console.log(`My name is ${name} I live in ${address} and I am ${age} years old` );
+const stds = [{name: 'ayesha', gpa: 3.8},
+    {name: 'Adnan', gpa: 3.7},
+    {name: 'Nabiha', gpa: 3.9},
+];
 
-}
-greet("Ayesha", 19);
-
-console.log(`${address} ${course}`);
-
- 
+stds.map((a) => {
+console.log(a);
+});
